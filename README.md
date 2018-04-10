@@ -1,4 +1,4 @@
-# DeepLearning-Chatbot
+# Text-Chatbot
 
 A simple, experimental chatbot implementation using Deep Learning, implemented in Python.
 
