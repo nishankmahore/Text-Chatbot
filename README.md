@@ -79,6 +79,16 @@ python response_train.py
 
 python response_generate.py
     
+## Note:
+
+   If you are keras of float32 change it to float64  vim ~/.keras/keras.json 
+                {
+                    "floatx": "float64",
+                    "epsilon": 1e-07,
+                    "backend": "tensorflow",
+                    "image_data_format": "channels_last"
+                }
+
 ## Built With:
 
    [Anaconda](https://docs.continuum.io/anaconda/install/)     [Keras](https://github.com/fchollet/keras/tree/master/docs)     [Spacy](https://spacy.io/)
